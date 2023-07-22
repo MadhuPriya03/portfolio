@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{font-family: 'Open Sans', sans-serif;
+}
+.bannerBgImg{
+    height: 100vh;
+    background-image: url("/Images/bgimg.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.bannerText{
+    text-align: top;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.bannerTitle{
+    font-size: 3rem;
+}
+
+.bannerDesc{
+    font-size: 2rem;
+}
+
+.card{
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: gainsboro;
+    border: 2px solid rgb(134, 166, 173);
+}
+
+.BIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.img-fluid:hover{
+    border: 2px solid rgb(134, 166, 173);
+}
+
+.card-img-top{
+    height: 50vh;
+}
